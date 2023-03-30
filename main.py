@@ -2,7 +2,7 @@ from pyzabbix import ZabbixAPI
 import time
 from utils import write_data_in_csv_for_dict, check_result_history
 
-request = ZabbixAPI('https://nop.zabbix.sys.local', user='igor.gubaydullin', password='24691356qW!@#$%')
+request = ZabbixAPI('https://nop.zabbix.sys.local', user='username', password='password')
 
 answer = request.do_request('apiinfo.version')
 
